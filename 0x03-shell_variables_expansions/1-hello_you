@@ -1,3 +1,2 @@
 #!/bin/bash
-alias greet='echo "Hello $(whoami)"'
-
+echo "hello $USER"
