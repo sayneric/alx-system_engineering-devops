@@ -1,0 +1,2 @@
+#!/bin/bash
+message=""; while read -r line; do message="$message${line:0:1}"; done; echo -e "$message"

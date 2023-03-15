@@ -1,2 +1,2 @@
 #!/bin/bash
-message=""; while read -r line; do message="$message${line:0:1}"; done; echo -e "$message"
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' 2- | rev | LC_ALL=C sort -f
