@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(( $(tr 'a-z' '0-25' <<< "${WATER,,}") + $(tr 'a-z' '0-25' <<< "${STIR,,}") )) | tr '0-25' 'bestchol'
